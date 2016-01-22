@@ -44,3 +44,9 @@ My overall plan for time management for phase 0 is to take a brief assessment of
 
 -help tells you what a command does
 # 1.4 Forking and Cloning Reflection
+
+To create a new repo, click the + symbol in the upper right hand corner of github and select "create new repository". To fork a repo, go to the repo you would like to fork, click the fork button in the upper right corner. Select the location you would like to fork the repo to. To clone a repo, locate the URL contained in the repo next to ("new file" and "find file") and copy it. Then, in terminal on your computer, navigate to the directory you would like this repo to be located. Once there, put git clone and paste the url. Hit enter.
+
+I would fork a repository instead of creating a new one to retain the directories and files within the existing repository. If I created a new repository it would be empty, and I would not have what I need to access.
+
+Setting up git and GitHub went pretty smoothly for me. The only issue I ran into was deleting a repository. I made sure my repository was empty and attempted to delete, but it still returned the directory not empty error. I am unsure of why this is.

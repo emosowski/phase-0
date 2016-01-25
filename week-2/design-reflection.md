@@ -1,4 +1,4 @@
-![Site Map](/imgs/site-map.png)
+![Site Map](imgs/site-map.png)
 
 1. What are the 6 Phases of Web Design?
 
@@ -34,4 +34,3 @@ User experience design addresses how a user feels when using a system. It takes 
 7. Which parts of the challenge did you find tedious?
 
 I found displaying the image within my file using markdown to be the most tedious. Understanding markdown at first was a little confusing, but I eventually sorted it out.
-

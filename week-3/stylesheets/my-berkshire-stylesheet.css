@@ -1,0 +1,78 @@
+body {
+  color: #000080;
+  background-color: #ffffff;
+}
+a {
+  color: #800080;
+  font-size: 16px
+}
+a:visited {
+  color: #ff0000;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
+}
+li {
+  font-size: 8px
+}
+header {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  margin: 0;
+}
+
+.letter {
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin:auto;
+}
+
+.contact {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+When linking an external file to a html file, make sure to place the link in the head and include the type, rel and correct link path to the css file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We used columns to divide the unordered list and then list-style-position: inside; to allow the bullet points for the second column to show. We also used span to change the text size of the first letters in the company name. It wasn't too dificult to get the site as we wanted it.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We used:
+  color
+  font-size
+  background-color
+  columns
+  font-weight
+  text-align
+  width
+  margin
+  display
+  list-style-position
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+We used both classes and ids. We used ids to put each part of the header on separate lines. We used classes to separate the first letter of Berkshire and Hathaway so that we could make them a different font-size from the rest of their respective words. Classes can be used on multiple elements, while ids must be unique.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+When we compared our code with the actual code base, we definitely had cleaner code and followed best practices. The actual code base used a table and put all of the styling for that table within the HTML, instead of in a separate CSS file. This made things rather messy, whereas ours was kept much cleaner because it was separate.
+*/

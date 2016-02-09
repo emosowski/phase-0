@@ -1,0 +1,28 @@
+body {
+  font-family: arial;
+}
+
+header {
+  background-color: yellow;
+  text-align: center;
+}
+.column-1{
+  background-color: red;
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+}
+.column-2{
+  background-color: blue;
+  float: right;
+  width: 48%;
+  margin-right: 2%;
+}
+footer {
+  background-color: gray;
+  clear: both;
+  text-align: center;
+}
+a {
+  color: purple;
+}

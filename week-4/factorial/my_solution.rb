@@ -11,11 +11,9 @@
 # Your Solution Below
 
 def factorial(number)
-  if number == 0
-    1
-  elsif number == 1
-    1
-  else number*factorial(number-1)
-  end
+  sum = 1
+  sum.upto(number) { |i| sum *= i}
+sum
 end
 
+p factorial(5)

@@ -1,12 +1,10 @@
+#Solution Below
 first_name = 'Emily'
 last_name = 'O'
 age = 26
 p first_name
 p last_name
 p age
-
-#Solution Below
-
 
 
 

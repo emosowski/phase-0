@@ -31,6 +31,11 @@ How was this challenge? Did you get a good review of some of the basics?
 
 Yes this challenge gave me a good review of the basics. It also taught me the difference between integers and floats, and how that changes the answer when using division or modulo. I also learned the .to_f to force an integers into a float when using division and modulo.
 
-Defining Variables https://github.com/emosowski/phase-0/blob/master/week-4/defining-variables.rb
-Simple String https://github.com/emosowski/phase-0/blob/master/week-4/simple-string.rb
+Defining Variables
+https://github.com/emosowski/phase-0/blob/master/week-4/defining-variables.rb
+
+Simple String
+https://github.com/emosowski/phase-0/blob/master/week-4/simple-string.rb
+
 Basic Math
+https://github.com/emosowski/phase-0/blob/master/week-4/basic-math.rb

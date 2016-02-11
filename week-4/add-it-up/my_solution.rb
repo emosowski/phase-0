@@ -35,6 +35,5 @@ total([1,2,3])
 def sentence_maker(array)
   array.join(' ').capitalize << "."
 end
-
 # 6. sentence_maker refactored solution
 

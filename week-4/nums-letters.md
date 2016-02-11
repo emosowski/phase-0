@@ -14,3 +14,19 @@ Integer division always returns integer answers. This means that if the answer o
 p 24*365
 p (8760*10)*60
 ```
+
+How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+You can do all of these things in Ruby and it will provide an implicit return of the answer.
+
+What are strings? Why and when would you use them?
+
+A string is a group of letters. You can use them to do string arithmetic or to add various strings together to make a sentence. You can also multiply strings by a number to return multiples of that string.
+
+What are local variables? Why and when would you use them?
+
+Local variables are variables that only exist in the method. You use them within various methods because they do not do anything outside of the method. This prevents them from messing with other methods.
+
+How was this challenge? Did you get a good review of some of the basics?
+
+Yes this challenge gave me a good review of the basics. It also taught me the difference between integers and floats, and how that changes the answer when using division or modulo. I also learned the .to_f to force an integers into a float when using division and modulo.

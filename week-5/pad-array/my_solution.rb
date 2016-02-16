@@ -13,10 +13,16 @@
 
 # 0. Pseudocode
 
-# What is the input?
+# What is the input? An array, an integer to hold the minimum size, and an optional pad value
 # What is the output? (i.e. What should the code return?)
+# The original or the array with pad value inserted
 # What are the steps needed to solve the problem?
 
+# Test whether array length is < minimum
+# WHILE array length is < minimum size
+#   add pad value
+# END WHILE
+# p array
 
 # 1. Initial Solution
 def pad!(array, min_size, value = nil) #destructive

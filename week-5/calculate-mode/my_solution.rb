@@ -37,11 +37,14 @@
     end
     frequent_array
  end
+puts mode([1, 2, 2, 3, 4])
+
 
 
 # 3. Refactored Solution
 
- def mode(array)
+
+def mode(array)
     new_hash = Hash.new(0)
     array.each {|x| new_hash[x]+=1}
     frequent_array = []

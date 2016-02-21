@@ -37,7 +37,7 @@
     end
     frequent_array
  end
-puts mode([1, 2, 2, 3, 4])
+puts mode([1, 2, 3, 4, 5, 5, 7])
 
 
 

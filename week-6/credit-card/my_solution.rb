@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [by myself, with: Dan Shapiro ].
+# I spent [1.5] hours on this challenge.
 
 # Pseudocode
 
@@ -34,7 +34,7 @@
 
 class CreditCard
 
-  attr_reader :card_digits
+  #attr_reader :card_digits
 
   def initialize(card_digits)
     @card_digits = card_digits
@@ -64,7 +64,7 @@ p my_card.check_card
 
 class CreditCard
 
-  attr_reader :card_digits
+  #attr_reader :card_digits
 
   def initialize(card_digits)
     @card_digits = card_digits

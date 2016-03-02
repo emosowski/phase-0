@@ -8,8 +8,8 @@
 var name = "Emily";
 console.log(name + " Osowski")
 
-//prompt("What is your favorite food?")
-//console.log("Hey! That's my favorite too!")
+prompt("What is your favorite food?")
+console.log("Hey! That's my favorite too!")
 
 
 // Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board

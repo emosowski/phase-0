@@ -68,7 +68,6 @@ var officers = {
 // go through each student in votes, for each student count how many times a name appears within each position
 // If the name of the candidate does not exist, create a new property under position
 // Else add a count to the value for the candidate property.
-
 // __________________________________________
 // Initial Solution
 /*
@@ -145,55 +144,16 @@ console.log(officers);
 
 
 for (var students in votes) {
-  if (voteCount.president.hasOwnProperty(votes[students].president)) {
-    // if candidate exists, add count
-    voteCount.president[votes[students].president] += 1;
+  for (var office in votes[students]) {
+    var choice = votes[students][office];
+    if (voteCount[office].hasOwnProperty(choice)) {
+      voteCount[office][choice] += 1;
+    }
+    else {
+      voteCount[office][choice] = 1;
+    }
   }
-  else {
-    // if candidate doesn't exist, intialize with count of 1
-    voteCount.president[votes[students].president] = 1;
-  }
-}
-
-for (var students in votes) {
-  if (voteCount.vicePresident.hasOwnProperty(votes[students].vicePresident)) {
-    // if candidate exists, add count
-    voteCount.vicePresident[votes[students].vicePresident] += 1;
-  }
-  else {
-    // if candidate doesn't exist, intialize with count of 1
-    voteCount.vicePresident[votes[students].vicePresident] = 1;
-  }
-}
-
-for (var students in votes) {
-  if (voteCount.secretary.hasOwnProperty(votes[students].secretary)) {
-    // if candidate exists, add count
-    voteCount.secretary[votes[students].secretary] += 1;
-  }
-  else {
-    // if candidate doesn't exist, intialize with count of 1
-    voteCount.secretary[votes[students].secretary] = 1;
-  }
-}
-
-for (var students in votes) {
-  if (voteCount.treasurer.hasOwnProperty(votes[students].treasurer)) {
-    // if candidate exists, add count
-    voteCount.treasurer[votes[students].treasurer] += 1;
-  }
-  else {
-    // if candidate doesn't exist, intialize with count of 1
-    voteCount.treasurer[votes[students].treasurer] = 1;
-  }
-}
-
-console.log(voteCount);
-
-// Pseudocode
-// Go through all the positions in voteCount
-// Set initial canidate property to highestVote
-// Iterate through rest of candidates, reset highestVote if value of candidate is greater than highestVote
+};
 
 for (var title in voteCount) {
   var highestVote = 0;
@@ -206,6 +166,8 @@ for (var title in voteCount) {
 }
 
 console.log(officers);
+
+
 
 
 

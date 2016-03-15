@@ -77,7 +77,7 @@ def dr_evils_cipher(coded_message)
   #What is this method returning?
 end
 =end
-
+=begin
 # Your Refactored Solution
 def dr_evils_cipher(coded_message)
   input = coded_message.split("")
@@ -110,7 +110,7 @@ p dr_evils_cipher("csy&wii,@m'zi@xyvrih$xli*qssr$mrxs&alex@m#pmoi%xs#gepp%e^hiex
 p dr_evils_cipher("qmrm#qi,*mj^m#iziv^pswx#csy#m^hsr'x%orsa^alex@m%asyph^hs.
 @m'h%tvsfefpc%qszi$sr%erh*kix#ersxliv$gpsri@fyx*xlivi@asyph^fi@e^15&qmryxi@tivmsh%xlivi$alivi*m*asyph&nywx^fi$mrgsrwspefpi.") == "mini me, if i ever lost you i don't know what i would do.\n i'd probably move on and get another clone but there would be a 15 minute period there where i would just be inconsolable."
 p dr_evils_cipher("alc@qeoi*e$xvmppmsr^alir#ai*gsyph%qeoi...#fmppmsrw?") == "why make a trillion when we could make... billions?"
-
+=end
 =begin
 # Reflection
 # Keep your reflection limited to 10-15 minutes!
@@ -128,3 +128,96 @@ What are you going to study to get more prepared for Phase 1?
 Generally I plan to really try to review the Ruby concepts we have covered thus far and then anything else I have time for like JavaScript and SQL.
 
 =end
+
+# Reverse Words
+
+
+# I worked on this challenge [by myself, with: ].
+# This challenge took me [#] hours.
+
+# Pseudocode
+
+
+=begin
+# Initial Solution
+
+def reverse_words(string)
+array = string.split(" ")
+
+ if string.length == 0
+    return string
+ end
+ if array.length > 0
+   array.map! { |word| word.reverse }
+   p array.join(" ")
+ end
+
+end
+=end
+
+
+=begin
+# Refactored Solution
+
+def reverse_words(string)
+array = string.split(" ")
+
+  if string.length == 0
+    return string
+  elsif array.length > 0
+   array.map! { |word| word.reverse }
+   return array.join(" ")
+ end
+
+end
+=end
+
+# Reflection
+
+
+
+# Create a Playlist from Driver Code
+
+# I worked on this challenge [by myself, with: ].
+# I spent [#] hours on this challenge.
+
+
+# Pseudocode
+
+
+
+# Initial Solution
+
+
+
+
+# Refactored Solution
+
+
+
+
+
+
+# DRIVER CODE AND TESTS GO BELOW THIS LINE
+one_by_one = Song.new("One by One", "Sirenia")
+world_so_cold = Song.new("World So Cold", "Three Days Grace")
+going_under = Song.new("Going Under", "Evanescence")
+
+my_playlist = Playlist.new(one_by_one, world_so_cold, going_under)
+
+lying_from_you = Song.new("Lying From You", "Linkin Park")
+angels = Song.new("Angels", "Within Temptation")
+
+my_playlist.add(lying_from_you, angels)
+p my_playlist.num_of_tracks == 5
+going_under.play #How would you model a song getting "played" in Ruby? I used `puts` and `sleep`. You can model this however you want.
+my_playlist.remove(angels)
+p my_playlist.includes?(lying_from_you) == true
+my_playlist.play_all
+my_playlist.display
+
+
+
+
+
+# Reflection
